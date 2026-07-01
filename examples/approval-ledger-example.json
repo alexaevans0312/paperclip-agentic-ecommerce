@@ -1,0 +1,48 @@
+{
+  "project": "paperclip-agentic-ecommerce",
+  "business": "Squish",
+  "actions": [
+    {
+      "id": "stripe-projects-001",
+      "type": "provision_saas",
+      "skill": "stripe-projects",
+      "requested_by": "stripe-ops-agent",
+      "business_reason": "Provision a development database or equivalent service for creator CRM and campaign tracking.",
+      "estimated_cost": "TBD from Stripe Projects provider catalog",
+      "spend_cap": "$25/month development cap until founder revises",
+      "environment": "development",
+      "status": "pending_founder_approval",
+      "requires_human_approval": true,
+      "verification_command": "stripe projects list",
+      "created_at": "2026-06-30T17:09:08-07:00"
+    },
+    {
+      "id": "stripe-link-001",
+      "type": "purchase",
+      "skill": "stripe-link-cli",
+      "requested_by": "stripe-ops-agent",
+      "business_reason": "Purchase a low-cost creator discovery or ecommerce research resource only if the founder approves the vendor and cap.",
+      "estimated_cost": "TBD",
+      "spend_cap": "$20 one-time cap unless separately approved",
+      "environment": "development",
+      "status": "pending_founder_approval",
+      "requires_human_approval": true,
+      "verification_command": "Record receipt and vendor URL in ledger",
+      "created_at": "2026-06-30T17:09:08-07:00"
+    },
+    {
+      "id": "mpp-agent-001",
+      "type": "pay_per_call_api",
+      "skill": "mpp-agent",
+      "requested_by": "stripe-ops-agent",
+      "business_reason": "Use a paid API for creator enrichment or data validation with a strict budget cap.",
+      "estimated_cost": "Per-call cost TBD",
+      "spend_cap": "$10 total experiment cap",
+      "environment": "development",
+      "status": "pending_founder_approval",
+      "requires_human_approval": true,
+      "verification_command": "Compare API call count and provider spend against cap",
+      "created_at": "2026-06-30T17:09:08-07:00"
+    }
+  ]
+}

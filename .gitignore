@@ -1,0 +1,26 @@
+# Generated / local
+output/
+*.log
+.DS_Store
+
+# Secrets and provider state
+.env
+.env.*
+!.env.example
+.projects/
+.vault/
+*.pem
+*.key
+*.p8
+
+# Node / Python if implementation is added later
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Media exports
+*.mov
+*.mp4
+*.m4v
+*.webm
