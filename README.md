@@ -242,6 +242,10 @@ Cleo prepares. Alexa decides.
 ### Submission
 
 - [Demo Plan](docs/DEMO_PLAN.md)
+- [Demo Source](demo/README.md)
+- [Storyboard](demo/storyboard.md)
+- [Narration Script](demo/narration-script.md)
+- [Shot List](demo/shot-list.md)
 - [Submission Checklist](docs/SUBMISSION_CHECKLIST.md)
 
 ## 🧪 Demo slice
